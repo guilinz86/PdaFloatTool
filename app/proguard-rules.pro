@@ -1,0 +1,4 @@
+﻿-keepattributes Signature
+-keepattributes *Annotation*
+-keep class com.pda.floatool.model.** { *; }
+-keep class com.pda.floatool.data.** { *; }

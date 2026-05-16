@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="馃搵 PDA 褰曞埗宸ュ叿"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_current_index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="褰撳墠: 绗?0 鏉?
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#E65100"
+            android:gravity="center"
+            android:padding="6dp"
+            android:background="#FFF3E0"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tv_preview_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="鏂囧瓧: ---"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:background="#E3F2FD"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_preview_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="鏁板瓧: ---"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:background="#E3F2FD"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="杩涘害: 0 / 30000"
+            android:textSize="12sp"
+            android:textColor="#888"
+            android:padding="4dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btn_jump"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="馃搶 璺宠浆鍒版寚瀹氱紪鍙?
+            android:backgroundTint="#FF9800"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btn_record"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="馃幆 褰曞埗搴忓垪"
+                android:backgroundTint="#7B1FA2"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="鈻?鎾斁"
+                android:backgroundTint="#1976D2"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_seq_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="宸蹭繚瀛? 0 涓簭鍒?
+            android:textSize="11sp"
+            android:textColor="#999"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_output_text"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="馃摑 杈撳嚭鏂囧瓧"
+            android:backgroundTint="#0D47A1"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="6dp"/>
+
+        <Button
+            android:id="@+id/btn_output_num"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="馃敘 杈撳嚭鏁板瓧"
+            android:backgroundTint="#00695C"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="6dp"/>
+
+        <Button
+            android:id="@+id/btn_tap"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="馃幆 鍧愭爣鐐瑰嚮"
+            android:backgroundTint="#7B1FA2"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="馃棏 娓呴櫎"
+                android:backgroundTint="#9E9E9E"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="馃攧 閲嶇疆"
+                android:backgroundTint="#9E9E9E"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

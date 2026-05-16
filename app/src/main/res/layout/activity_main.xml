@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="馃摝 PDA 褰曞埗宸ュ叿"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鎮诞绐?+ 鏁版嵁寰幆 + 褰曞埗鎾斁"
+        android:textSize="13sp"
+        android:textColor="#888"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鍔犺浇鏁版嵁涓?.."
+        android:textSize="14sp"
+        android:textColor="#666"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="鈶?寮€鍚偓娴獥鏉冮檺"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_accessibility"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="鈶?寮€鍚棤闅滅鏈嶅姟"
+        android:textSize="14sp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="馃殌 鍚姩鎮诞绐?
+        android:backgroundTint="#1976D2"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+</LinearLayout>
